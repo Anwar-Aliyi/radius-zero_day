@@ -1,0 +1,5 @@
+const studentName = "YOUR_NAME";
+
+console.log(`Hello, ${studentName}! Welcome to const studentName = "YOUR_NAME";
+
+console.log(`Hello, ${studentName}! Welcome to Radius Training Center.`);
