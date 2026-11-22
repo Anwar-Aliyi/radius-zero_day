@@ -1,30 +1,49 @@
-# Commands I practiced under task 2
+# Commands I practised under Task 2
 
-mkdir -p
-touch 
-echo >
-exho >>
-cat
-tail
-head
-wc -l
-cp
-mv 
-rm
-ls -l
+- `mkdir -p`
+- `touch`
+- `echo >`
+- `echo >>`
+- `cat`
+- `tail`
+- `head`
+- `wc -l`
+- `cp`
+- `mv`
+- `rm`
+- `ls -l`
+
+# Explanation of each command in detail
+
+- `mkdir -p` creates nested directories. The `-p` option creates parent folders as needed and does not give an error if the folder already exists.
+- `touch` creates an empty file.
+- `echo >` writes text to a file and replaces the old contents with the new text.
+- `echo >>` appends new text to the end of a file and keeps the older content.
+- `cat` displays the whole content of a file.
+- `tail` displays the last 10 lines of a file.
+- `head` displays the first 10 lines of a file.
+- `wc -l` counts the lines in a file. (`wc -w` counts words.)
+- `cp` copies a file from one place to another.
+- `mv` has two purposes: it moves files and it renames them.
+- `rm` deletes a file. `rm -rf` deletes a folder with all its content, so use it carefully.
+- `ls -l` lists the content of a folder in long format, which lets us see file permissions.
+
+# Difference between `>` and `>>`
+
+- `>` overwrites the file and replaces the old content.
+- `>>` appends to the end of the file and keeps the old content.
+
+# File permissions
+
+- `ls -l` showed `-rw-------` for my files.
+- The owner can read and write.
+- The group and others have no access.
+- No file had the execute (`x`) permission, so running `notes.txt` as a command gave "Permission denied".
+
+# Screenshot
 
 
-## explanation of each commands in detail
 
-mkdir -p is used to create nested directory -p is used to make sure only 1 directry is created if it exist it will replace it by new ome
-touch is used to create file 
-echo >  used to write to files and > is used to replace the old contents by new one
-echo >> is used to write to files and >> uses to append the new content  at end of older contentes
-cat is used to display the content of file
-tail is used to display the last 10 line of file
-head is used to display the first 10 line of file
-wc -l is used to count the words and more than words -l makes it to count lines
-cp is used to copy from one file to another 
-mv is used for two purposes rename and move files
-rm used to delete file -rf makes to delete with its content
-ls used to list the content -l enable us to see file permission
+![Task 2 terminal screenshot](screenshot.png)
+
+
